@@ -19,3 +19,10 @@ npm run build
 ```
 npm run lint
 ```
+
+NOTE: Whereever you host this, the following routes must reverse proxy to your jenkins host:
+```
+/api
+/view
+/job
+```

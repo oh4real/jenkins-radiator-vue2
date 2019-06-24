@@ -1,28 +1,61 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="container-fluid">
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
+  name: 'app'
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+	body {
+	padding-top:20px;padding-bottom:20px;color:#fff
 }
-</style>
+	body .bvBrandColor {
+	color:#998CD1
+}
+	.footer,.header,.marketing {
+	padding-left:15px;padding-right:15px
+}
+	.header {
+	border-bottom:1px solid #e5e5e5
+}
+	.header h3 {
+	margin-top:0;margin-bottom:0;line-height:40px;padding-bottom:19px
+}
+	.footer {
+	padding-top:19px;color:#777;border-top:1px solid #e5e5e5
+}
+	.container-narrow>hr {
+	margin:30px 0
+}
+	.jumbotron {
+	text-align:center;border-bottom:1px solid #e5e5e5
+}
+	.jumbotron .btn {
+	font-size:21px;padding:14px 24px
+}
+	.marketing {
+	margin:40px 0
+}
+	.marketing p+h4 {
+	margin-top:28px
+}
+@media screen and (min-width:768px) {
+    .container {
+    max-width:730px
+  }
+    .footer,.header,.marketing {
+    padding-left:0;padding-right:0
+  }
+    .header {
+    margin-bottom:30px
+  }
+    .jumbotron {
+    border-bottom:0
+  }
+}</style>
