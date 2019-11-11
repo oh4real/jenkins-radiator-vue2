@@ -9,7 +9,7 @@ server {
     }
 
     location ~ \/(view|api) {
-        proxy_pass JENKINS_HOST;
+        proxy_pass $JENKINS_HOST;
     }
 
 }
