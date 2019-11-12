@@ -19,7 +19,6 @@ jenkins_1     | *************************************************************
 jenkins_1     | *************************************************************
 jenkins_1     | *************************************************************
 jenkins_1     | 
-jenkins_1     | 2019-11-11 23:25:48.711+0000 [id=41]    INFO    hudson.model.UpdateSite#updateData: Obtained the latest update center data file for UpdateSource default
 ```
 
 ### Provision and configure Jenkins
