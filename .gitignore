@@ -20,4 +20,5 @@ yarn-error.log*
 *.sln
 *.sw*
 
-/vue.config.js
+/site.conf
+
